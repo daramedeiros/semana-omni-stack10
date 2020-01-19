@@ -11,6 +11,6 @@ routes.get('/devs', DevController.index );
 routes.post('/devs', DevController.store );
 
 // buscar Dev
-routes.get('/search'), SearchControllers.index;
+routes.get('/search', SearchControllers.index);
 
 module.exports = routes
